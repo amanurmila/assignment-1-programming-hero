@@ -179,7 +179,6 @@ nav button {
 .my-current-target-section {
   width: 1140px;
   height: 590px;
-  border: 2px solid red;
   margin: 0 auto;
 }
 .current-target-content {
@@ -238,4 +237,60 @@ nav button {
 .javascript-technology img {
   width: 56px;
   height: 56px;
+}
+
+/* Next target section styles */
+.next-target-section {
+  width: 1140px;
+  height: 866px;
+  margin: 60px auto;
+}
+.next-target-div1 {
+  width: 946px;
+  height: 113px;
+  margin: 0 97px;
+}
+.next-target-div1 h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.next-target-div1 p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.next-target-all {
+  display: flex;
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px lightgray;
+  padding: 30px;
+}
+.next-target-all h1 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+/* Need support section styles */
+.need-support-section {
+  width: 1140px;
+  height: 313px;
+  border: 2px solid red;
+  margin: 0 auto;
+  background-image: url(./assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
