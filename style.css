@@ -294,3 +294,41 @@ nav button {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
 }
+.need-support-div {
+  margin: 64px 48px;
+}
+.need-support-div h2 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.need-support-div p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.need-support-div div {
+  text-align: center;
+}
+.need-support-div input[type="text"] {
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+}
+.need-support-div input[type="submit"] {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Contact me section styles */
+.contact-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px 0;
+  padding: 0 120px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
