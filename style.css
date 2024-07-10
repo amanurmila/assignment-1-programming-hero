@@ -60,7 +60,7 @@ nav button {
 /* Why web development section styles */
 .web-development-section {
   width: 1140px;
-  height: 1193px;
+  height: 1353px;
   margin: 50px auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -85,6 +85,16 @@ nav button {
   font-size: 16px;
   font-weight: 400;
 }
+.web-development-second-section{
+  padding: 30px;
+}
+.web-development-third-section{
+  padding: 30px;
+}
+.web-development-fourth-section{
+  padding: 30px;
+}
+
 /* Why web development shared styles */
 .web-development-second-section,
 .web-development-third-section,
@@ -216,6 +226,10 @@ nav button {
   width: 56px;
   height: 56px;
 }
+.html-technology a {
+  color: #000;
+  font-weight: 600;
+}
 .css-technology {
   width: 364px;
   height: 299px;
@@ -227,6 +241,10 @@ nav button {
   width: 56px;
   height: 56px;
 }
+.css-technology a {
+  color: #000;
+  font-weight: 600;
+}
 .javascript-technology {
   width: 364px;
   height: 299px;
@@ -237,6 +255,10 @@ nav button {
 .javascript-technology img {
   width: 56px;
   height: 56px;
+}
+.javascript-technology a {
+  color: #000;
+  font-weight: 600;
 }
 
 /* Next target section styles */
@@ -279,6 +301,10 @@ nav button {
   color: rgb(13, 19, 33);
   font-size: 24px;
   font-weight: 800;
+}
+.next-target-content a {
+  color: #000;
+  font-weight: 600;
 }
 
 /* Need support section styles */
